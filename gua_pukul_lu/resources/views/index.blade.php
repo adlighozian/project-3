@@ -40,6 +40,7 @@
     </div>
 
     <audio src="/audio/Pop.mp3" id="pop"></audio>
+    <audio src="/audio/lagu.mp3" autoplay loop></audio>
     <script src="/js/script.js"></script>
 </body>
 

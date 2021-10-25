@@ -47,6 +47,7 @@ function mulai() {
 function pukul() {
     skor++;
     this.parentNode.classList.remove('muncul');
+    pop.currentTime = 0;
     pop.play();
     papanSkor.textContent = skor;
 }
