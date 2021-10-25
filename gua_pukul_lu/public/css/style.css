@@ -11,6 +11,12 @@ button {
     margin: auto;
 }
 
+.score table {
+    border-collapse: collapse;
+    width: 100%;
+    padding: 10px;
+}
+
 .container {
     width: 600px;
     margin: auto;
@@ -19,6 +25,15 @@ button {
 
 .container:active {
     cursor: url(/img/palu2.png), auto;
+}
+
+.score {
+    float: left;
+    margin-left: 20px;
+    height: 200px;
+    width: 300px;
+    border: black solid;
+    overflow: auto;
 }
 
 .tanah {

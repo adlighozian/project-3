@@ -1,7 +1,8 @@
 const tanah = document.querySelectorAll('.tanah');
 const pala = document.querySelectorAll('.pala');
 const papanSkor = document.querySelector('.papan-skor');
-const pop = document.querySelector('#pop');
+const slap = document.querySelector('#slap');
+const lagu = document.querySelector('#lagu');
 
 let tanahSebelumnya;
 let selesai;
@@ -37,18 +38,19 @@ function munculkanpala() {
 function mulai() {
     selesai = false;
     skor = 0;
+    lagu.play();
     papanSkor.textContent = 0;
     munculkanpala();
     setTimeout(() => {
         selesai = true;
-    }, 15000);
+    }, 100 * 1000); //per detik
 }
 
 function pukul() {
     skor++;
     this.parentNode.classList.remove('muncul');
-    pop.currentTime = 0;
-    pop.play();
+    slap.currentTime = 0;
+    slap.play();
     papanSkor.textContent = skor;
 }
 

@@ -7,7 +7,11 @@
     <title>pukul bumi | ghz</title>
     <link rel="stylesheet" href="/css/style.css">
     <script src="https://unpkg.com/boxicons@2.0.9/dist/boxicons.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+
     <link href="/img/logo.png" rel="shortcut icon">
 </head>
 
@@ -17,6 +21,18 @@
     <button type="button" class="mulai" onclick="mulai()">Mulai!</button>
 
     <h2 class="papan-skor">0</h2>
+
+    <div class="score">
+        <h3 style="text-align: center;text-transform: uppercase;">Leaderboard</h3>
+
+        <table>
+            <tr>
+                <td>Nama</td>
+                <td>Score</td>
+            </tr>
+        </table>
+
+    </div>
 
     <div class="container">
         <div class="tanah">
@@ -38,9 +54,8 @@
             <div class="pala"></div>
         </div>
     </div>
-
-    <audio src="/audio/Pop.mp3" id="pop"></audio>
-    <audio src="/audio/lagu.mp3" autoplay loop></audio>
+    <audio src="/audio/lagu.mp3" id="lagu"></audio>
+    <audio src="/audio/slap.mp3" id="slap"></audio>
     <script src="/js/script.js"></script>
 </body>
 
