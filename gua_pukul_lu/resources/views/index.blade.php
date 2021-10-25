@@ -5,10 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>pukul bumi | ghz</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/css/style.css">
     <script src="https://unpkg.com/boxicons@2.0.9/dist/boxicons.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-    <link href="logo.png" rel="shortcut icon">
+    <link href="/img/logo.png" rel="shortcut icon">
 </head>
 
 <body>
@@ -39,8 +39,8 @@
         </div>
     </div>
 
-    <audio src="Pop.mp3" id="pop"></audio>
-    <script src="script.js"></script>
+    <audio src="/audio/Pop.mp3" id="pop"></audio>
+    <script src="/js/script.js"></script>
 </body>
 
 </html>

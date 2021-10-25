@@ -41,7 +41,7 @@ function mulai() {
     munculkanpala();
     setTimeout(() => {
         selesai = true;
-    }, 10000);
+    }, 15000);
 }
 
 function pukul() {
